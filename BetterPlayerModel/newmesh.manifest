@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 4144378142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4d8d4bb77a3f80524750a6726c72a62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7dd29e6367832b7c8576c2e2338d2362
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a4d8d4bb77a3f80524750a6726c72a62
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scavenger.fbx
+- Assets/Gear_Base_Color.png
+- Assets/Scavenger.controller
+- Assets/Clothing_Normal_OpenGL.png
+- Assets/Helmet_Base_Color.png
+- Assets/Gear_Normal_OpenGL.png
+- Assets/Helmet_Normal_OpenGL.png
+- Assets/Armature.prefab
+- Assets/Clothing_Base_Color.png
+Dependencies: []
