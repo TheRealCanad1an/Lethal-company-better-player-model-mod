@@ -42,7 +42,6 @@ namespace BetterPlayerModel
 				playerObject = Object.Instantiate<GameObject>(BetterModelBase.playerModel);
 				playerObject.transform.localScale = Vector3.one * .16f;
 				Transform val3 = ((Component)this).gameObject.transform.Find("ScavengerModel").Find("metarig");
-				Transform parent = val3.Find("spine").Find("spine.001");
 				playerObject.transform.SetParent(val3);
 				playerObject.transform.localPosition = new Vector3(0f, 0f, 0f);
 				playerObject.transform.localEulerAngles = Vector3.zero;

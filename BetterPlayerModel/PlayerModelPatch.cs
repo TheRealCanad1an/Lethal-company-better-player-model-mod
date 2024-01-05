@@ -68,7 +68,7 @@ namespace BetterPlayerModel.Patches
             PlayerControllerB[] array2 = array;
             foreach (PlayerControllerB val in array2)
             {
-                if (!((Object)(object)val == (Object)(object)localPlayerController) || localPlayerController.isHostPlayerObject)
+                if (!((Object)(object)val == (Object)(object)localPlayerController))
                 {
                     SkinnedMeshRenderer val2 = ((Component)val).gameObject.GetComponentsInChildren<SkinnedMeshRenderer>().ToList().Find((SkinnedMeshRenderer x) => ((Object)x).name.Contains("Body"));
                     if (!((Object)(object)val2 != (Object)null))
